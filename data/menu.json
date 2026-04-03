@@ -1,0 +1,200 @@
+{
+  "items": [
+    {
+      "id": "p001",
+      "name": "Margherita Madness",
+      "category": "Pizza",
+      "type": "Veg",
+      "basePrice": 12.99,
+      "image": "https://placehold.co/400x300/FFE500/000000?text=Margherita",
+      "description": "Classic tomato base with mozzarella and fresh basil",
+      "toppings": [
+        { "id": "t1", "name": "Extra Cheese", "price": 1.50 },
+        { "id": "t2", "name": "Jalapeños", "price": 0.75 },
+        { "id": "t3", "name": "Black Olives", "price": 0.75 },
+        { "id": "t4", "name": "Sun-dried Tomatoes", "price": 1.00 },
+        { "id": "t5", "name": "Spinach", "price": 0.75 },
+        { "id": "t6", "name": "Mushrooms", "price": 1.00 }
+      ]
+    },
+    {
+      "id": "p002",
+      "name": "BBQ Beast",
+      "category": "Pizza",
+      "type": "Non-Veg",
+      "basePrice": 15.99,
+      "image": "https://placehold.co/400x300/FF4D6D/FFFFFF?text=BBQ+Beast",
+      "description": "BBQ sauce base with chicken, bacon and caramelized onions",
+      "toppings": [
+        { "id": "t1", "name": "Extra Cheese", "price": 1.50 },
+        { "id": "t7", "name": "Extra Chicken", "price": 2.00 },
+        { "id": "t8", "name": "Extra Bacon", "price": 2.00 },
+        { "id": "t2", "name": "Jalapeños", "price": 0.75 },
+        { "id": "t9", "name": "Red Onions", "price": 0.50 },
+        { "id": "t6", "name": "Mushrooms", "price": 1.00 }
+      ]
+    },
+    {
+      "id": "p003",
+      "name": "Garden Glory",
+      "category": "Pizza",
+      "type": "Veg",
+      "basePrice": 13.99,
+      "image": "https://placehold.co/400x300/4DFF91/000000?text=Garden+Glory",
+      "description": "Pesto base loaded with seasonal vegetables and goat cheese",
+      "toppings": [
+        { "id": "t1", "name": "Extra Cheese", "price": 1.50 },
+        { "id": "t10", "name": "Artichoke Hearts", "price": 1.25 },
+        { "id": "t11", "name": "Bell Peppers", "price": 0.75 },
+        { "id": "t5", "name": "Spinach", "price": 0.75 },
+        { "id": "t6", "name": "Mushrooms", "price": 1.00 },
+        { "id": "t3", "name": "Black Olives", "price": 0.75 }
+      ]
+    },
+    {
+      "id": "p004",
+      "name": "Pepperoni Punk",
+      "category": "Pizza",
+      "type": "Non-Veg",
+      "basePrice": 14.99,
+      "image": "https://placehold.co/400x300/FF6B35/FFFFFF?text=Pepperoni+Punk",
+      "description": "Double pepperoni with chili flakes on a rich tomato base",
+      "toppings": [
+        { "id": "t1", "name": "Extra Cheese", "price": 1.50 },
+        { "id": "t12", "name": "Double Pepperoni", "price": 2.50 },
+        { "id": "t2", "name": "Jalapeños", "price": 0.75 },
+        { "id": "t13", "name": "Chili Flakes", "price": 0.25 },
+        { "id": "t9", "name": "Red Onions", "price": 0.50 },
+        { "id": "t6", "name": "Mushrooms", "price": 1.00 }
+      ]
+    },
+    {
+      "id": "b001",
+      "name": "Classic Smash",
+      "category": "Burger",
+      "type": "Non-Veg",
+      "basePrice": 10.99,
+      "image": "https://placehold.co/400x300/FFE500/000000?text=Classic+Smash",
+      "description": "Double smashed beef patty with American cheese and pickles",
+      "toppings": [
+        { "id": "t1", "name": "Extra Cheese", "price": 1.00 },
+        { "id": "t14", "name": "Caramelized Onions", "price": 0.75 },
+        { "id": "t15", "name": "Bacon", "price": 1.50 },
+        { "id": "t16", "name": "Avocado", "price": 1.25 },
+        { "id": "t17", "name": "Fried Egg", "price": 1.00 },
+        { "id": "t2", "name": "Jalapeños", "price": 0.75 }
+      ]
+    },
+    {
+      "id": "b002",
+      "name": "Veggie Villain",
+      "category": "Burger",
+      "type": "Veg",
+      "basePrice": 9.99,
+      "image": "https://placehold.co/400x300/4DFF91/000000?text=Veggie+Villain",
+      "description": "Crispy black bean patty with chipotle mayo and slaw",
+      "toppings": [
+        { "id": "t1", "name": "Extra Cheese", "price": 1.00 },
+        { "id": "t16", "name": "Avocado", "price": 1.25 },
+        { "id": "t2", "name": "Jalapeños", "price": 0.75 },
+        { "id": "t18", "name": "Pickled Onions", "price": 0.50 },
+        { "id": "t19", "name": "Roasted Peppers", "price": 0.75 },
+        { "id": "t6", "name": "Mushrooms", "price": 1.00 }
+      ]
+    },
+    {
+      "id": "b003",
+      "name": "Nacho Chaos",
+      "category": "Burger",
+      "type": "Non-Veg",
+      "basePrice": 13.49,
+      "image": "https://placehold.co/400x300/FF4D6D/FFFFFF?text=Nacho+Chaos",
+      "description": "Beef patty with nacho cheese, tortilla chips and salsa",
+      "toppings": [
+        { "id": "t1", "name": "Extra Cheese", "price": 1.00 },
+        { "id": "t15", "name": "Bacon", "price": 1.50 },
+        { "id": "t20", "name": "Guacamole", "price": 1.50 },
+        { "id": "t21", "name": "Sour Cream", "price": 0.75 },
+        { "id": "t2", "name": "Jalapeños", "price": 0.75 },
+        { "id": "t22", "name": "Extra Salsa", "price": 0.50 }
+      ]
+    },
+    {
+      "id": "b004",
+      "name": "Mushroom Maniac",
+      "category": "Burger",
+      "type": "Veg",
+      "basePrice": 11.49,
+      "image": "https://placehold.co/400x300/C4FF00/000000?text=Mushroom+Maniac",
+      "description": "Portobello patty with Swiss cheese, truffle aioli and arugula",
+      "toppings": [
+        { "id": "t1", "name": "Extra Cheese", "price": 1.00 },
+        { "id": "t16", "name": "Avocado", "price": 1.25 },
+        { "id": "t6", "name": "Extra Mushrooms", "price": 1.25 },
+        { "id": "t14", "name": "Caramelized Onions", "price": 0.75 },
+        { "id": "t23", "name": "Truffle Mayo", "price": 1.00 },
+        { "id": "t18", "name": "Pickled Onions", "price": 0.50 }
+      ]
+    },
+    {
+      "id": "d001",
+      "name": "Classic Cola",
+      "category": "Drink",
+      "type": "Veg",
+      "basePrice": 2.49,
+      "image": "https://placehold.co/400x300/000000/FFE500?text=Classic+Cola",
+      "description": "Ice cold cola, the original refresher",
+      "toppings": []
+    },
+    {
+      "id": "d002",
+      "name": "Lemon Crusher",
+      "category": "Drink",
+      "type": "Veg",
+      "basePrice": 3.49,
+      "image": "https://placehold.co/400x300/FFE500/000000?text=Lemon+Crusher",
+      "description": "Fresh squeezed lemonade with mint and crushed ice",
+      "toppings": []
+    },
+    {
+      "id": "d003",
+      "name": "Mango Riot",
+      "category": "Drink",
+      "type": "Veg",
+      "basePrice": 3.99,
+      "image": "https://placehold.co/400x300/FF6B35/FFFFFF?text=Mango+Riot",
+      "description": "Thick mango shake with a hint of cardamom",
+      "toppings": []
+    },
+    {
+      "id": "d004",
+      "name": "Berry Blast",
+      "category": "Drink",
+      "type": "Veg",
+      "basePrice": 4.49,
+      "image": "https://placehold.co/400x300/FF4D6D/FFFFFF?text=Berry+Blast",
+      "description": "Mixed berry smoothie with chia seeds",
+      "toppings": []
+    },
+    {
+      "id": "d005",
+      "name": "Sparkling Water",
+      "category": "Drink",
+      "type": "Veg",
+      "basePrice": 1.99,
+      "image": "https://placehold.co/400x300/4DFF91/000000?text=Sparkling",
+      "description": "Premium sparkling mineral water, chilled",
+      "toppings": []
+    },
+    {
+      "id": "d006",
+      "name": "Iced Coffee",
+      "category": "Drink",
+      "type": "Veg",
+      "basePrice": 4.99,
+      "image": "https://placehold.co/400x300/8B4513/FFFFFF?text=Iced+Coffee",
+      "description": "Cold brew over ice with oat milk",
+      "toppings": []
+    }
+  ]
+}

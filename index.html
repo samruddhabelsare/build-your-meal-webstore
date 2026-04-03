@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BUILD YOUR MEAL — Smart Restaurant WebStore</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">BUILD<span>MEAL</span></a>
+    <ul class="nav-links" id="navMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="builder.html">Builder</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="cart.html" class="nav-cart">
+      🛒 CART
+      <span class="cart-count">0</span>
+    </a>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero">
+    <div class="hero-bg-text">EAT</div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badges">
+          <span class="badge">🍕 Pizza</span>
+          <span class="badge green">🍔 Burger</span>
+          <span class="badge pink">🥤 Drinks</span>
+        </div>
+        <h1>
+          BUILD
+          <span>YOUR</span>
+          MEAL.
+        </h1>
+        <p>
+          Customise every bite. Choose your base, stack your toppings,
+          pick your drink — and we'll bring it exactly how you want it.
+          No compromises. No filler.
+        </p>
+        <div class="hero-cta">
+          <a href="builder.html" class="btn btn-primary btn-lg">START BUILDING →</a>
+          <a href="menu.html" class="btn btn-secondary btn-lg">BROWSE MENU</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card">
+          <span class="hero-card-tag">⭐ Chef's Pick</span>
+          <h3>BBQ BEAST</h3>
+          <p>Double-smashed patty, bacon, jalapeños, caramelized onions on a toasted brioche bun.</p>
+          <div class="hero-card-price">from $15.99</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TICKER ========== -->
+  <div class="ticker">
+    <div class="ticker-inner">
+      <span>🍕 FRESH DAILY</span><span class="sep">★</span>
+      <span>🔥 BUILD YOUR MEAL</span><span class="sep">★</span>
+      <span>🥤 COLD DRINKS</span><span class="sep">★</span>
+      <span>🍔 SMASH BURGERS</span><span class="sep">★</span>
+      <span>✅ VEG OPTIONS</span><span class="sep">★</span>
+      <span>🚀 FAST DELIVERY</span><span class="sep">★</span>
+      <!-- Duplicate for seamless loop -->
+      <span>🍕 FRESH DAILY</span><span class="sep">★</span>
+      <span>🔥 BUILD YOUR MEAL</span><span class="sep">★</span>
+      <span>🥤 COLD DRINKS</span><span class="sep">★</span>
+      <span>🍔 SMASH BURGERS</span><span class="sep">★</span>
+      <span>✅ VEG OPTIONS</span><span class="sep">★</span>
+      <span>🚀 FAST DELIVERY</span><span class="sep">★</span>
+    </div>
+  </div>
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section style="background:#0a0a0a; border-bottom: 5px solid #0a0a0a; padding: 4rem 2rem;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="section-header text-center" style="margin-bottom:3rem">
+        <span class="section-tag" style="background:var(--pink);color:var(--white);">How It Works</span>
+        <h2 class="section-title" style="color:var(--white);">THREE STEPS <span>TO BLISS</span></h2>
+      </div>
+      <div style="display:grid; grid-template-columns: repeat(3,1fr); gap:1.5rem;">
+
+        <div style="background:var(--yellow); border:5px solid var(--yellow); padding:2rem; box-shadow:8px 8px 0 var(--yellow);">
+          <div style="font-family:var(--font-display);font-size:5rem;line-height:1;color:#0a0a0a;margin-bottom:0.5rem;">01</div>
+          <h3 style="font-family:var(--font-display);font-size:1.75rem;letter-spacing:1px;color:#0a0a0a;margin-bottom:0.5rem;">PICK A BASE</h3>
+          <p style="font-size:0.9rem;color:#333;line-height:1.6;">Choose from our handcrafted pizzas or smash burgers. Each base tells a story.</p>
+        </div>
+
+        <div style="background:var(--green); border:5px solid var(--green); padding:2rem; box-shadow:8px 8px 0 var(--green); margin-top:1.5rem;">
+          <div style="font-family:var(--font-display);font-size:5rem;line-height:1;color:#0a0a0a;margin-bottom:0.5rem;">02</div>
+          <h3 style="font-family:var(--font-display);font-size:1.75rem;letter-spacing:1px;color:#0a0a0a;margin-bottom:0.5rem;">ADD TOPPINGS</h3>
+          <p style="font-size:0.9rem;color:#333;line-height:1.6;">Stack it up with premium toppings. The total updates live as you build.</p>
+        </div>
+
+        <div style="background:var(--pink); border:5px solid var(--pink); padding:2rem; box-shadow:8px 8px 0 var(--pink);">
+          <div style="font-family:var(--font-display);font-size:5rem;line-height:1;color:var(--white);margin-bottom:0.5rem;">03</div>
+          <h3 style="font-family:var(--font-display);font-size:1.75rem;letter-spacing:1px;color:var(--white);margin-bottom:0.5rem;">ORDER & EAT</h3>
+          <p style="font-size:0.9rem;color:rgba(255,255,255,0.85);line-height:1.6;">Review your cart, checkout, and wait for the most perfect meal ever.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED ITEMS (loaded from JSON) ========== -->
+  <section style="padding:5rem 2rem; border-bottom:5px solid #0a0a0a;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="section-header" style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:2rem;">
+        <div>
+          <span class="section-tag">Menu Highlights</span>
+          <h2 class="section-title">FEATURED <span>PICKS</span></h2>
+        </div>
+        <a href="menu.html" class="btn btn-primary">SEE ALL →</a>
+      </div>
+
+      <!-- Cards will be injected here by JS -->
+      <div class="cards-grid" id="featuredItems">
+        <!-- Loading state -->
+        <div style="grid-column:1/-1;text-align:center;padding:3rem;font-family:var(--font-mono);color:#888;">
+          Loading featured items...
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BAND ========== -->
+  <section style="background:var(--pink); border-top:5px solid #0a0a0a; border-bottom:5px solid #0a0a0a; padding:4rem 2rem; text-align:center;">
+    <div style="max-width:700px; margin:0 auto;">
+      <h2 style="font-family:var(--font-display);font-size:clamp(3rem,6vw,6rem);color:var(--white);letter-spacing:2px;line-height:0.95;margin-bottom:1.5rem;">
+        HUNGRY YET?<br><span style="color:var(--yellow);">WE THOUGHT SO.</span>
+      </h2>
+      <p style="color:rgba(255,255,255,0.85);font-size:1.05rem;margin-bottom:2rem;">Stop scrolling, start building. Your perfect meal is 3 clicks away.</p>
+      <a href="builder.html" class="btn btn-yellow btn-lg">BUILD MY MEAL NOW →</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo">BUILD<span>MEAL</span></span>
+        <p>A smart restaurant where you're the chef. Fresh ingredients, bold flavors, your rules.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="builder.html">Meal Builder</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Info</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul>
+          <li><a href="#">Mon–Fri: 11am–11pm</a></li>
+          <li><a href="#">Sat–Sun: 10am–12am</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 BUILDMEAL™ — All rights reserved.</p>
+      <p>Made with ❤️ and JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
