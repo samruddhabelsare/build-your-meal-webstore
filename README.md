@@ -167,7 +167,7 @@ Example:
 
 **Your Name**
 
-* GitHub: [https://github.com/yourusername](https://github.com/samruddhabelsare)
+* GitHub: [https://github.com/Samruddhabelsare](https://github.com/samruddhabelsare)
 
 ---
 
